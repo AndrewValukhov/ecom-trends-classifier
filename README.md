@@ -11,3 +11,5 @@
 Монолит в streamlit cloud
 
 https://trends-ecom.streamlit.app/
+
+Используется менее качественная модель, основанная на rubert-tiny-2, потому что лучшая модель из соревнования не укладывается в ресуры streamlit cloud

@@ -43,7 +43,7 @@ def explain_prediction(mapping, prediction):
 def schema_state_init()-> None:
     if "model" not in st.session_state:
         st.session_state["model"] = pipeline("text-classification",
-                                             'Maldopast/bge-ecom-trends-classifier',
+                                             'Maldopast/tiny2-ecom-trends-classifier',
                                              device='cpu',
                                              batch_size=16,
                                              return_all_scores=True,
